@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="31" passed="23" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T00:10:51 SAST" name="Suite" finished-at="2022-02-01T00:11:38 SAST" duration-ms="47452">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T00:10:51 SAST" name="Test" finished-at="2022-02-01T00:11:38 SAST" duration-ms="47452">
+      <class name="com.automation.SearchRecord">
+        <test-method signature="search_deleted()[pri:22, instance:com.automation.SearchRecord@13e344d]" started-at="2022-02-01T00:11:29 SAST" name="search_deleted" finished-at="2022-02-01T00:11:32 SAST" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_deleted -->
+      </class> <!-- com.automation.SearchRecord -->
+      <class name="com.automation.AdminTap">
+        <test-method signature="admintap()[pri:6, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:05 SAST" name="admintap" finished-at="2022-02-01T00:11:10 SAST" duration-ms="4170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admintap -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=admintap status=SUCCESS method=AdminTap.admintap()[pri:6, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="Validate_adminUrl()[pri:7, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="Validate_adminUrl" finished-at="2022-02-01T00:11:10 SAST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_adminUrl -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_adminUrl status=SUCCESS method=AdminTap.Validate_adminUrl()[pri:7, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validateAdd()[pri:8, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="validateAdd" finished-at="2022-02-01T00:11:10 SAST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAdd status=SUCCESS method=AdminTap.validateAdd()[pri:8, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validateDelete()[pri:9, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="validateDelete" finished-at="2022-02-01T00:11:10 SAST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDelete -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDelete status=SUCCESS method=AdminTap.validateDelete()[pri:9, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validateSearch()[pri:10, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="validateSearch" finished-at="2022-02-01T00:11:10 SAST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSearch status=SUCCESS method=AdminTap.validateSearch()[pri:10, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validateReset()[pri:11, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="validateReset" finished-at="2022-02-01T00:11:10 SAST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReset -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.AdminTap@e350b40]" started-at="2022-02-01T00:11:10 SAST" name="check_result" finished-at="2022-02-01T00:11:10 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateReset status=SUCCESS method=AdminTap.validateReset()[pri:11, instance:com.automation.AdminTap@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+      </class> <!-- com.automation.AdminTap -->
+      <class name="com.automation.Config">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Config@70e9c95d]" started-at="2022-02-01T00:10:47 SAST" name="setup" finished-at="2022-02-01T00:10:51 SAST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="flushing()[pri:0, instance:com.automation.Config@70e9c95d]" started-at="2022-02-01T00:11:38 SAST" name="flushing" finished-at="2022-02-01T00:11:38 SAST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushing -->
+      </class> <!-- com.automation.Config -->
+      <class name="com.automation.LogOut">
+        <test-method signature="logout()[pri:23, instance:com.automation.LogOut@1ffaf86]" started-at="2022-02-01T00:11:32 SAST" name="logout" finished-at="2022-02-01T00:11:36 SAST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="validate_url_landingPage()[pri:24, instance:com.automation.LogOut@1ffaf86]" started-at="2022-02-01T00:11:36 SAST" name="validate_url_landingPage" finished-at="2022-02-01T00:11:38 SAST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_url_landingPage -->
+        <test-method signature="validate_url_landingPage2()[pri:25, instance:com.automation.LogOut@1ffaf86]" started-at="2022-02-01T00:11:38 SAST" name="validate_url_landingPage2" finished-at="2022-02-01T00:11:38 SAST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.automation.LogOut.validate_url_landingPage2(LogOut.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_url_landingPage2 -->
+      </class> <!-- com.automation.LogOut -->
+      <class name="com.automation.EnterInfo">
+        <test-method signature="enter_info()[pri:15, instance:com.automation.EnterInfo@2794eab6]" started-at="2022-02-01T00:11:14 SAST" name="enter_info" finished-at="2022-02-01T00:11:17 SAST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_info -->
+        <test-method signature="validate_status()[pri:16, instance:com.automation.EnterInfo@2794eab6]" started-at="2022-02-01T00:11:17 SAST" name="validate_status" finished-at="2022-02-01T00:11:17 SAST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status -->
+      </class> <!-- com.automation.EnterInfo -->
+      <class name="com.automation.Login">
+        <test-method signature="login()[pri:2, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:10:57 SAST" name="login" finished-at="2022-02-01T00:11:05 SAST" duration-ms="8433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_result" finished-at="2022-02-01T00:11:05 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:2, instance:com.automation.Login@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="Valid_url()[pri:3, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="Valid_url" finished-at="2022-02-01T00:11:05 SAST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_url -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_result" finished-at="2022-02-01T00:11:05 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Valid_url status=SUCCESS method=Login.Valid_url()[pri:3, instance:com.automation.Login@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="check_admin()[pri:4, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_admin" finished-at="2022-02-01T00:11:05 SAST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_admin -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_result" finished-at="2022-02-01T00:11:05 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_admin status=SUCCESS method=Login.check_admin()[pri:4, instance:com.automation.Login@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="check_welcome()[pri:5, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_welcome" finished-at="2022-02-01T00:11:05 SAST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_welcome -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.Login@38cee291]" started-at="2022-02-01T00:11:05 SAST" name="check_result" finished-at="2022-02-01T00:11:05 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_welcome status=SUCCESS method=Login.check_welcome()[pri:5, instance:com.automation.Login@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+      </class> <!-- com.automation.Login -->
+      <class name="com.automation.SearchSection">
+        <test-method signature="click_search()[pri:17, instance:com.automation.SearchSection@6340e5f0]" started-at="2022-02-01T00:11:17 SAST" name="click_search" finished-at="2022-02-01T00:11:20 SAST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_search -->
+        <test-method signature="validate_username()[pri:18, instance:com.automation.SearchSection@6340e5f0]" started-at="2022-02-01T00:11:20 SAST" name="validate_username" finished-at="2022-02-01T00:11:20 SAST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_username -->
+        <test-method signature="validate_employeeName()[pri:19, instance:com.automation.SearchSection@6340e5f0]" started-at="2022-02-01T00:11:20 SAST" name="validate_employeeName" finished-at="2022-02-01T00:11:22 SAST" duration-ms="2045" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.automation.SearchSection.validate_employeeName(SearchSection.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_employeeName -->
+        <test-method signature="validate_status()[pri:20, instance:com.automation.SearchSection@6340e5f0]" started-at="2022-02-01T00:11:22 SAST" name="validate_status" finished-at="2022-02-01T00:11:22 SAST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status -->
+      </class> <!-- com.automation.SearchSection -->
+      <class name="com.automation.ClickAdd">
+        <test-method signature="clickadd()[pri:12, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:10 SAST" name="clickadd" finished-at="2022-02-01T00:11:14 SAST" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickadd -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:14 SAST" name="check_result" finished-at="2022-02-01T00:11:14 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickadd status=SUCCESS method=ClickAdd.clickadd()[pri:12, instance:com.automation.ClickAdd@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validate_addbtnUrl()[pri:13, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:14 SAST" name="validate_addbtnUrl" finished-at="2022-02-01T00:11:14 SAST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_addbtnUrl -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:14 SAST" name="check_result" finished-at="2022-02-01T00:11:14 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_addbtnUrl status=SUCCESS method=ClickAdd.validate_addbtnUrl()[pri:13, instance:com.automation.ClickAdd@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+        <test-method signature="validateAdd()[pri:14, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:14 SAST" name="validateAdd" finished-at="2022-02-01T00:11:14 SAST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd -->
+        <test-method is-config="true" signature="check_result(org.testng.ITestResult)[pri:0, instance:com.automation.ClickAdd@41a0aa7d]" started-at="2022-02-01T00:11:14 SAST" name="check_result" finished-at="2022-02-01T00:11:14 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAdd status=SUCCESS method=ClickAdd.validateAdd()[pri:14, instance:com.automation.ClickAdd@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_result -->
+      </class> <!-- com.automation.ClickAdd -->
+      <class name="com.automation.PageTitle">
+        <test-method signature="first_test()[pri:1, instance:com.automation.PageTitle@791f145a]" started-at="2022-02-01T00:10:51 SAST" name="first_test" finished-at="2022-02-01T00:10:57 SAST" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_test -->
+        <test-method is-config="true" signature="EvaluateResult(org.testng.ITestResult)[pri:0, instance:com.automation.PageTitle@791f145a]" started-at="2022-02-01T00:10:57 SAST" name="EvaluateResult" finished-at="2022-02-01T00:10:57 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=first_test status=SUCCESS method=PageTitle.first_test()[pri:1, instance:com.automation.PageTitle@791f145a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateResult -->
+      </class> <!-- com.automation.PageTitle -->
+      <class name="com.automation.DeleteRecord">
+        <test-method signature="delete_record()[pri:21, instance:com.automation.DeleteRecord@45099dd3]" started-at="2022-02-01T00:11:22 SAST" name="delete_record" finished-at="2022-02-01T00:11:29 SAST" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_record -->
+      </class> <!-- com.automation.DeleteRecord -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
